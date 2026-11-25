@@ -1,4 +1,4 @@
-# k8s/app.yaml: buku tamu P7 di Kubernetes. Ganti SEMUA nim-24161562055.
+# k8s/app.yaml: buku tamu P7 di Kubernetes.
 apiVersion: v1
 kind: Namespace
 metadata: { name: nim-24161562055 }
@@ -61,7 +61,7 @@ spec:
             preStop: { sleep: { seconds: 5 } }
           resources:                       # dari Tabel 2 (hasil ukurmu)
             requests: { cpu: 100m, memory: 128Mi }
-            limits: { cpu: 1000m, memory: 256Mi }
+            limits: { cpu: 782m, memory: 256Mi }
 ---
 apiVersion: v1
 kind: Service
