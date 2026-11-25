@@ -1,5 +1,4 @@
 # contoh-error.yaml: kesalahan yang disengaja (slide 16 dan 23).
-# Ganti SEMUA nim-24161562055. Hapus setelah selesai (lihat D.3).
 apiVersion: apps/v1
 kind: Deployment
 metadata: { name: coba-pull, namespace: nim-24161562055 }
